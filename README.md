@@ -7,7 +7,7 @@ Cholid Junoto	        5025201038 <br/>
 
 ### Soal 1
 #### Sebutkan web server yang digunakan pada "monta.if.its.ac.id"!
-Filter
+**Filter**
 
     'http.request and http.host eq "monta.if.its.ac.id"'
 ![](images/1.png)
@@ -17,7 +17,7 @@ Filter
 
 ### Soal 2
 #### Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
-Filter
+**Filter**
 
     http
 ![](images/2.png)
@@ -35,14 +35,14 @@ Didapatkan judul TA Ishaq adalah Evaluasi untuk kerja User Space Filesystem (FUS
 
 ### Soal 3
 #### Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!
-Filter
+**Filter**
 
     tcp.dstport == 80
 ![](images/3.png)
 
 ### Soal 4
 #### Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
-Filter 
+**Filter** 
 
     tcp.srcport == 21
 ![](images/4.png)
